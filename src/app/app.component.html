@@ -18,6 +18,29 @@
   </li>
 </ul>-->
 
-<app-user-profile></app-user-profile>
+<!--<div [appHighlight]="'yellow'">Texte en highlight</div>-->
 
+<!--<ul>
+  <li>Pommes de terre</li>
+  <li [ngStyle]="{backgroundColor: isThisIngredientVital ? 'red' : 'yellow'}">Raclette</li>
+  <li>Jambon</li>
+  <li [ngClass]="{'vital' : isThisIngredientVital}">Cornichons</li>
+  <li>Chou-fleur</li>
+</ul>-->
+<hr>
+<ul *appMoviesfilms="MoviesList">
+  <li appHighlight>Independance Day</li>
+  <li>Je suis une légende</li>
+  <li>Zorro</li>
+  <li>The Mask</li>
+</ul>
+<hr>
+<!--<ul *ngFor="let song of songList">
+  <li>{{ song }}</li>
+</ul>
+<h1 appHighlight>Raclette</h1>-->
+
+
+<!--<app-user-profile></app-user-profile>-->
+<!--<app-appHiglight></app-appHiglight>-->
 <!--<app-sign-up></app-sign-up>-->

@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public title:string = 'Richard website';
+  /*public title:string = 'Richard website';*/
+  public title = 'Raclette party';
+
+  isThisIngredientVital:boolean = true;
+
+  MoviesList:boolean = true;
+
+  songList:string[] = ["Alejandro", "Ne me quitte pas", "Le temps est bon"];
+
 }
