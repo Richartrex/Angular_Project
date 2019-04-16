@@ -13,6 +13,9 @@ import { DisplayGuestsDirective } from './display-guests.directive';
 import { MoviesfilmsDirective } from './moviesfilms.directive';
 import { ROUTES } from './app.routes';
 import { MenuComponent } from './menu/menu.component';
+import { SkillComponent } from './skill/skill.component';
+import { DeveloperComponent } from './developer/developer.component';
+import { CocktailListComponent } from './cocktail-list/cocktail-list.component';
 
 
 @NgModule({
@@ -23,7 +26,7 @@ import { MenuComponent } from './menu/menu.component';
     HighlightDirective, 
     DisplayGuestsDirective, 
     MoviesfilmsDirective, 
-    MenuComponent,    
+    MenuComponent, SkillComponent, DeveloperComponent, CocktailListComponent,    
   ],
   imports: [
     BrowserModule,
