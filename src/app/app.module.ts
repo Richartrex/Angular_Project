@@ -15,7 +15,7 @@ import { ROUTES } from './app.routes';
 import { MenuComponent } from './menu/menu.component';
 import { SkillComponent } from './skill/skill.component';
 import { DeveloperComponent } from './developer/developer.component';
-import { CocktailListComponent } from './cocktail-list/cocktail-list.component';
+
 
 
 @NgModule({
@@ -26,7 +26,7 @@ import { CocktailListComponent } from './cocktail-list/cocktail-list.component';
     HighlightDirective, 
     DisplayGuestsDirective, 
     MoviesfilmsDirective, 
-    MenuComponent, SkillComponent, DeveloperComponent, CocktailListComponent,    
+    MenuComponent, SkillComponent, DeveloperComponent,     
   ],
   imports: [
     BrowserModule,
