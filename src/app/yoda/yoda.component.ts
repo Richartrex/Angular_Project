@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Question } from '../common/question.model';
 
 @Component({
   selector: 'app-yoda',
@@ -7,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class YodaComponent implements OnInit {
 
+  public answers: Question[];
+  public average: number;
+  public questions: Question[] = [
+    new Question("1", "Aimes", true, 3),
+  ]
 
 
-
-  constructor() { }
+  constructor() {
+    
+   }
 
   ngOnInit() {
   }
