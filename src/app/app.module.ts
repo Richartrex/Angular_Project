@@ -15,6 +15,8 @@ import { ROUTES } from './app.routes';
 import { MenuComponent } from './menu/menu.component';
 import { SkillComponent } from './skill/skill.component';
 import { DeveloperComponent } from './developer/developer.component';
+import { YodaComponent } from './yoda/yoda.component';
+import { QuestionComponent } from './question/question.component';
 
 
 
@@ -26,7 +28,7 @@ import { DeveloperComponent } from './developer/developer.component';
     HighlightDirective, 
     DisplayGuestsDirective, 
     MoviesfilmsDirective, 
-    MenuComponent, SkillComponent, DeveloperComponent,     
+    MenuComponent, SkillComponent, DeveloperComponent, YodaComponent, QuestionComponent,     
   ],
   imports: [
     BrowserModule,

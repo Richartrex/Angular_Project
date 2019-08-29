@@ -8,7 +8,8 @@ import { Skill } from '../common/skill.model';
 })
 export class SkillComponent implements OnInit {
 
-@Input() public Skills:Skill[];
+@Input()
+ public skill:Skill;
 
 constructor() { }
 

@@ -1,9 +1,9 @@
-<p>Nom : {{ profils.lastName }} </p>
-<p>Prénom : {{ profils.firstName }}</p>
-<p>Age : {{ profils.age }}</p>
-<p>Sexe : {{ profils.sexe }}</p>
-<p>Bio : {{ profils.bio }}</p>
-<app-skill *ngFor="let skill of profils.skills" [Skills]="skill"></app-skill>
+<p>Nom : {{ developer.lastName }} </p>
+<p>Prénom : {{ developer.firstName }}</p>
+<p>Age : {{ developer.age }}</p>
+<p>Sexe : {{ developer.sexe }}</p>
+<p>Bio : {{ developer.bio }}</p>
+<app-skill *ngFor="let skill of developer.skill" [skill]="skill"></app-skill>
 
     
     
